@@ -1,6 +1,7 @@
 # terraform_aws_output
 
-Content of this repo is guideline on HOW to use a terraform output variable from the state file
+Content of this repo is guideline on HOW to use a terraform output variable from the state file.
+
 We are going to use AWS EC2 instance creation in this example.
 
 **Note that all this is tested on Ubuntu OS**
@@ -67,6 +68,7 @@ After successful execution of `terraform apply` command we will have output simi
   server_id2 = i-006d3c79677ff336f
 
   ```
+In this way you can find easier what has been created with your code.
 
 ## Remove all created with Terraform
 - Type in your terminal `terraform destroy` in order to delete created terraform project
